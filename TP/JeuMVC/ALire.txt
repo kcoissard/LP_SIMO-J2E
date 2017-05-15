@@ -1,0 +1,11 @@
+IMPORTER LE PROJET ECLIPSE
+
+1/ import > General > Existing Projects into Workspace > selectionnez le dossier jeu
+
+2/ Modifiez les path des librairies [Properties (project) > Java Build Path > Libraries]
+- JRE et Tomcat
+
+3/ Modifiez la Targeted Runtimes [Properties (project) > Targeted Runtimes]
+- Choisir votre serveur Tomcat
+
+4/ Faire un run du fichier index.html de WebContent

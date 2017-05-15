@@ -1,0 +1,15 @@
+IMPORTER UN PROJET zip dans ECLIPSE
+
+1/ importez l'archive d'un projet SIL4 (Java EE)
+	import > General > Existing Projects into Workspace > select archive file
+
+2/ Vérifiez les path des librairies du projet 
+	Properties (project) > Java Build Path > Libraries
+	si unbound (JRE et Tomcat), modifier les chemins
+
+3/ Vérifiez la Targeted Runtimes 
+	Properties (project) > Targeted Runtimes
+	Choisir Apache Tomcat 8.0 si non selectionné
+
+4/ Faire un run d'un fichier jsp ou html dans le WebContent
+	Run as > Run on server (choisir le serveur apache tomcat installé)

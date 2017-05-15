@@ -1,0 +1,25 @@
+/*page index*/
+.conteneur_index{
+	width: 80%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-top:25px;
+    text-align:center;
+    vertical-align:center;
+}
+
+/* page detail*/
+.detail_panel{
+	margin-top: 35px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div .panel-heading{
+	text-align:center;
+}
+
+div .panel-body{
+	text-align:center;
+}
